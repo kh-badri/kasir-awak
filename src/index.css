@@ -1,4 +1,8 @@
 body {
   font-family: "Public Sans", sans-serif;
+}
 
+.category-aktif {
+  background-color: #504f4f;
+  color: white;
 }

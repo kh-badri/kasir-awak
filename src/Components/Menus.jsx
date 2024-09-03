@@ -11,18 +11,10 @@ const Menus = ({ menu }) => {
           transition: "transform 0.4s ease-in-out",
           cursor: "pointer",
         }}
-        onMouseEnter={(e) => (e.currentTarget.style.transform = "scale(1.1)")}
+        onMouseEnter={(e) => (e.currentTarget.style.transform = "scale(1.04)")}
         onMouseLeave={(e) => (e.currentTarget.style.transform = "scale(1)")}
       >
-        <Card.Img
-          variant="top"
-          src={
-            "assets/images/" +
-            menu.category.nama.toLowerCase() +
-            "/" +
-            menu.gambar
-          }
-        />
+        <Card.Img variant="top" src={"assets/images/" + menu.category.nama.toLowerCase() + "/" + menu.gambar} />
         <Card.Body>
           <Card.Title>{menu.nama}</Card.Title>
           <Card.Text>Rp. {numberWithCommas(menu.harga)}</Card.Text>
