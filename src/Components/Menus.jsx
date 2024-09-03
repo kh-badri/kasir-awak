@@ -2,11 +2,12 @@ import React from "react";
 import { Col, Card } from "react-bootstrap";
 import { numberWithCommas } from "../utils/utils";
 
-const Menus = ({ menu }) => {
+const Menus = ({ menu, masukKeranjang }) => {
   return (
     <Col md={4} xs={6} className="mb-4">
       <Card
         className="shadow"
+        onClick={() => masukKeranjang(menu)}
         style={{
           transition: "transform 0.4s ease-in-out",
           cursor: "pointer",
