@@ -36,26 +36,40 @@ Ikuti langkah-langkah di bawah ini untuk menginstal dan menjalankan **Kasir App*
 2. **Instal Dependensi**
 
 Setelah masuk ke direktori proyek, jalankan perintah berikut untuk menginstal semua dependensi yang diperlukan:
-npm install
+
+```bash
+ npm install
+```
 
 3. **Menjalankan Aplikasi**
 
 Untuk menjalankan aplikasi dalam mode pengembangan, gunakan perintah berikut:
-npm run dev
+
+```bash
+ npm run dev
+```
 
 4. **Build untuk Produksi**
 
 Jika Anda ingin membuat versi produksi dari aplikasi, jalankan perintah:
-npm run build
+
+```bash
+ npm run build
+```
 
 5. **Linting & Formatting**
 
 Untuk memastikan kode Anda tetap rapi dan konsisten, gunakan perintah berikut untuk linting dan formatting:
-npm run lint
-npm run format
+
+```bash
+ npm run lint
+ npm run format
+```
 
 **Struktur Proyek**
 Berikut adalah gambaran umum dari struktur direktori proyek:
+
+```bash
 kasir-app/
 ├── public/ # Berkas statis dan template HTML
 ├── src/ # Sumber kode aplikasi
@@ -68,6 +82,7 @@ kasir-app/
 ├── index.html # Template HTML utama
 ├── package.json # Berkas konfigurasi npm
 └── vite.config.js # Konfigurasi Vite
+```
 
 **Kontribusi**
 Kami sangat menghargai kontribusi dari komunitas. Jika Anda ingin berkontribusi, silakan buat pull request atau buka isu di GitHub.
