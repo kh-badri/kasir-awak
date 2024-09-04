@@ -1,7 +1,8 @@
 import React, { Component } from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
 import { NavbarComponent } from "./Components";
 import {Home, Sukses} from "./pages"
+
 
 export default class App extends Component {
   render() {
@@ -9,10 +10,10 @@ export default class App extends Component {
       <BrowserRouter>
         <NavbarComponent/>
         <main>
-          <Routes>
-            <Route path="/" component={Home} />
-            <Route path="/" component={Sukses} />
-          </Routes>
+          <Switch>
+            <Route path="/" component={Home} exact />
+            <Route path="/Sukses" component={Sukses} exact />
+          </Switch>
         </main>
       </BrowserRouter>
     )
