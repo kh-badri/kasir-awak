@@ -37,23 +37,24 @@ export default class ListCategories extends Component {
     const { categories } = this.state;
     const { changeCategory, categoriYangDipilih } = this.props;
     return (
-      <Col md={2} mt="2">
-        <h4>
-          <strong>Jenis </strong> Menu
-        </h4>
-        <hr />
-        <ListGroup>
-          {categories &&
-            categories.map((category) => (
-              <ListGroup.Item key={category.id} onClick={() => changeCategory(category.nama)} className={categoriYangDipilih === category.nama && "category-aktif"} style={{ cursor: "pointer" }}>
-                <h5>
-                  <Icon nama={category.nama} />
-                  {category.nama}
-                </h5>
-              </ListGroup.Item>
-            ))}
-        </ListGroup>
-      </Col>
+      <Col xs={12} sm={4} md={2} className="mt-2">
+  <h4><strong>Jenis</strong> Menu</h4>
+  <hr />
+  <ListGroup>
+    {categories && categories.map((category) => (
+      <ListGroup.Item
+        key={category.id}
+        onClick={() => changeCategory(category.nama)}
+        className={categoriYangDipilih === category.nama && "category-aktif"}
+        style={{ cursor: "pointer" }}
+      >
+        <h5>
+          <Icon nama={category.nama} /> {category.nama}
+        </h5>
+      </ListGroup.Item>
+    ))}
+  </ListGroup>
+</Col>
     );
   }
 }
