@@ -186,24 +186,7 @@
   "keranjangs": [
     {
       "jumlah": 4,
-      "total_harga": 20000,
-      "product": {
-        "id": "13",
-        "kode": "K-013",
-        "nama": "Es Teh",
-        "harga": 5000,
-        "is_ready": true,
-        "gambar": "es-teh.jpg",
-        "category": {
-          "id": 2,
-          "nama": "Minuman"
-        }
-      },
-      "id": "82d0"
-    },
-    {
-      "jumlah": 5,
-      "total_harga": 80000,
+      "total_harga": 64000,
       "product": {
         "id": "1",
         "kode": "K-01",
@@ -246,6 +229,23 @@
         "harga": 3000,
         "is_ready": true,
         "gambar": "teh-hangat.jpg",
+        "category": {
+          "id": 2,
+          "nama": "Minuman"
+        }
+      }
+    },
+    {
+      "id": "1595",
+      "jumlah": 1,
+      "total_harga": 15000,
+      "product": {
+        "id": "11",
+        "kode": "K-011",
+        "nama": "Coffe Late",
+        "harga": 15000,
+        "is_ready": true,
+        "gambar": "coffe-late.jpg",
         "category": {
           "id": 2,
           "nama": "Minuman"
