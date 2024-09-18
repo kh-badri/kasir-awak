@@ -1,1 +1,1 @@
-export const API_URL = "https://db-json-kasirapp.vercel.app/";
+export const API_URL = "https://json-db-kasir.vercel.app/";
