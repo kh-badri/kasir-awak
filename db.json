@@ -183,93 +183,7 @@
       }
     }
   ],
-  "keranjangs": [
-    {
-      "jumlah": 4,
-      "total_harga": 64000,
-      "product": {
-        "id": "1",
-        "kode": "K-01",
-        "nama": "Sate Ayam",
-        "harga": 16000,
-        "is_ready": true,
-        "gambar": "sate-ayam.jpg",
-        "category": {
-          "id": 1,
-          "nama": "Makanan"
-        }
-      },
-      "id": "41d6"
-    },
-    {
-      "id": "358f",
-      "jumlah": 1,
-      "total_harga": 10000,
-      "product": {
-        "id": "6",
-        "kode": "K-06",
-        "nama": "Bakso",
-        "harga": 10000,
-        "is_ready": true,
-        "gambar": "bakso.jpg",
-        "category": {
-          "id": 1,
-          "nama": "Makanan"
-        }
-      }
-    },
-    {
-      "id": "382f",
-      "jumlah": 1,
-      "total_harga": 3000,
-      "product": {
-        "id": "14",
-        "kode": "K-014",
-        "nama": "Teh Hangat",
-        "harga": 3000,
-        "is_ready": true,
-        "gambar": "teh-hangat.jpg",
-        "category": {
-          "id": 2,
-          "nama": "Minuman"
-        }
-      }
-    },
-    {
-      "jumlah": 2,
-      "total_harga": 30000,
-      "product": {
-        "id": "11",
-        "kode": "K-011",
-        "nama": "Coffe Late",
-        "harga": 15000,
-        "is_ready": true,
-        "gambar": "coffe-late.jpg",
-        "category": {
-          "id": 2,
-          "nama": "Minuman"
-        }
-      },
-      "id": "1595"
-    },
-    {
-      "id": "dcc8",
-      "jumlah": 1,
-      "total_harga": 7000,
-      "product": {
-        "id": "12",
-        "kode": "K-012",
-        "nama": "Es Jeruk",
-        "harga": 7000,
-        "is_ready": true,
-        "gambar": "es-jeruk.jpg",
-        "category": {
-          "id": 2,
-          "nama": "Minuman"
-        }
-      }
-    }
-  ],
+  "keranjangs": [],
   "pesanans": [
     {
       "id": "71d7",
@@ -325,6 +239,130 @@
               "nama": "Cemilan"
             }
           }
+        }
+      ]
+    },
+    {
+      "id": "412a",
+      "total_bayar": 50000,
+      "menus": [
+        {
+          "id": "358f",
+          "jumlah": 1,
+          "total_harga": 10000,
+          "product": {
+            "id": "6",
+            "kode": "K-06",
+            "nama": "Bakso",
+            "harga": 10000,
+            "is_ready": true,
+            "gambar": "bakso.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          }
+        },
+        {
+          "id": "382f",
+          "jumlah": 1,
+          "total_harga": 3000,
+          "product": {
+            "id": "14",
+            "kode": "K-014",
+            "nama": "Teh Hangat",
+            "harga": 3000,
+            "is_ready": true,
+            "gambar": "teh-hangat.jpg",
+            "category": {
+              "id": 2,
+              "nama": "Minuman"
+            }
+          }
+        },
+        {
+          "jumlah": 2,
+          "total_harga": 30000,
+          "product": {
+            "id": "11",
+            "kode": "K-011",
+            "nama": "Coffe Late",
+            "harga": 15000,
+            "is_ready": true,
+            "gambar": "coffe-late.jpg",
+            "category": {
+              "id": 2,
+              "nama": "Minuman"
+            }
+          },
+          "id": "1595"
+        },
+        {
+          "id": "dcc8",
+          "jumlah": 1,
+          "total_harga": 7000,
+          "product": {
+            "id": "12",
+            "kode": "K-012",
+            "nama": "Es Jeruk",
+            "harga": 7000,
+            "is_ready": true,
+            "gambar": "es-jeruk.jpg",
+            "category": {
+              "id": 2,
+              "nama": "Minuman"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "df48",
+      "total_bayar": 0,
+      "menus": []
+    },
+    {
+      "id": "50fd",
+      "total_bayar": 0,
+      "menus": []
+    },
+    {
+      "id": "7302",
+      "total_bayar": 35000,
+      "menus": [
+        {
+          "id": "5d5d",
+          "jumlah": 1,
+          "total_harga": 15000,
+          "product": {
+            "id": "11",
+            "kode": "K-011",
+            "nama": "Coffe Late",
+            "harga": 15000,
+            "is_ready": true,
+            "gambar": "coffe-late.jpg",
+            "category": {
+              "id": 2,
+              "nama": "Minuman"
+            }
+          }
+        },
+        {
+          "jumlah": 4,
+          "total_harga": 20000,
+          "product": {
+            "id": "13",
+            "kode": "K-013",
+            "nama": "Es Teh",
+            "harga": 5000,
+            "is_ready": true,
+            "gambar": "es-teh.jpg",
+            "category": {
+              "id": 2,
+              "nama": "Minuman"
+            }
+          },
+          "id": "7016"
         }
       ]
     }
